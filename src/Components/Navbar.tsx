@@ -3,14 +3,9 @@ import DropDown from "./DropDownButton";
 import Marquee from "react-fast-marquee";
 import { useState, useEffect } from "react";
 
-
-
 const Navbar = () => {
   const [scaled, setScaled] = useState(false);
 
-
-  
-  
   useEffect(() => {
     const intervalId = setInterval(() => {
       setScaled((scaled) => !scaled);
@@ -25,33 +20,33 @@ const Navbar = () => {
         <div className="relative flex overflow-x-hidden text-white text-sm">
           <Marquee speed={80}>
             <span className="mx-4">
-              1st International Conference on Advances in Computing,
+              2nd International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
-              1st International Conference on Advances in Computing,
+              2nd International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
-              1st International Conference on Advances in Computing,
+              2nd International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
 
             <span className="mx-4">
-              1st International Conference on Advances in Computing,
+              2nd International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
-              1st International Conference on Advances in Computing,
+              2nd International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
             <span className="mx-4">
-              1st International Conference on Advances in Computing,
+              2nd International Conference on Advances in Computing,
               Communication and Networking- ICAC2N
             </span>
             <span className="mx-2">•</span>
@@ -135,11 +130,12 @@ const Navbar = () => {
               </div>
               <div className=" flex md:w-auto w-full ml-5">
                 <li
-                  className={`text-md my-4 text-white transition underline transform duration-500 ${
-                    scaled ? "scale-150" : "scale-100"
+                  className={`text-md my-4 text-white transition underline transform duration-500 scale-100
                   }`}
                 >
-                  <a href="https://drive.google.com/file/d/1aaIgv00Dy3gi_qwSz8RLAzR0JlZy0-Ue/view?usp=sharing">SCHEDULE</a>
+                  <a href="https://drive.google.com/file/d/1aaIgv00Dy3gi_qwSz8RLAzR0JlZy0-Ue/view?usp=sharing">
+                    SCHEDULE
+                  </a>
                 </li>
               </div>
             </ul>

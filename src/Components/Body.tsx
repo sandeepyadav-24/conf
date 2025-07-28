@@ -152,7 +152,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Paper Submission Starts</p>
                     <p className="font-light text-sm "></p>
-                    <p className="text-sm text-gray-700 ">15/03/2024</p>
+                    <p className="text-sm text-gray-700 ">26/07/2025</p>
                   </div>
                   <div className="rounded-full bg-blue-800 font-semibold bg-opacity-20">
                     <p className="px-2 py-0.5 text-xs text-blue-800">New</p>
@@ -168,7 +168,7 @@ const Body = () => {
                       Paper Submission Deadline
                     </p>
                     <p className="font-light text-sm text-red-800"></p>
-                    <p className="text-sm  text-red-800">31/10/2024</p>
+                    <p className="text-sm  text-red-800">30/09/2025</p>
                   </div>
                   <div className="flex space-x-2 items-center justify-center">
                     <div className="rounded-full mt-1 bg-orange-800 font-semibold bg-opacity-20">
@@ -187,7 +187,7 @@ const Body = () => {
                     <p className="font-light text-sm ">
                       (within 4weeks from submission)
                     </p>
-                    <p className="text-sm text-gray-700 ">14/11/2024</p>
+                    <p className="text-sm text-gray-700 ">30/10/2025</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -197,7 +197,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Registration</p>
 
-                    <p className="text-sm text-gray-700 ">21/11/2024</p>
+                    <p className="text-sm text-gray-700 ">01/11/2025</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -207,7 +207,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Camera Ready Paper</p>
 
-                    <p className="text-sm text-gray-700 ">21/11/2024</p>
+                    <p className="text-sm text-gray-700 ">15/11/2025</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -218,7 +218,7 @@ const Body = () => {
                     <p className="font-medium ">Conference Date</p>
 
                     <p className="text-sm text-gray-700 ">
-                      16th - 17th December 2024
+                      16th - 17th December 2025
                     </p>
                   </div>
                 </div>
@@ -315,6 +315,28 @@ const Body = () => {
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
               </Link>
                */}
+            </div>
+          </div>
+          <div className="w-full lg:w-min-sm">
+            <div className="mt-5 p-4 rounded-t-md bg-gray-200 border-l-4 border-red-600 w-full lg:max-w-sm">
+              <p className="font-semibold text-lg">Important Link</p>
+            </div>
+            <div className="space-y-3 p-4 rounded-b-md bg-gray-100 w-full lg:max-w-sm lg:max-h-52 lg:overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-thumb-rounded-md scrollbar-track-gray-200">
+              <Link
+                to="https://conference-website-beryl.vercel.app"
+                className="cursor-pointer"
+              >
+                <div className="flex items-start justify-between">
+                  <div className="flex space-x-2 items-start">
+                    <div>
+                      <p className="font-medium">
+                        ICAC2N - Previous Year Conference
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700" />
+              </Link>
             </div>
           </div>
         </div>

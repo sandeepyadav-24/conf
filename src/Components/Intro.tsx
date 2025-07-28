@@ -23,43 +23,41 @@ const Intro = () => {
       <div className="text-center my-10 font-bold">
         <p>CONFERENCE WILL BE HELD IN BLENDED MODE (ONLINE AND OFFLINE BOTH)</p>
         <button
-          className={`text-2xl my-4 text-red-800 transition transform duration-500 ${
-            scaled ? "scale-150" : "scale-100"
+          className={`text-2xl my-4 text-red-800 transition transform duration-500 scale-100
           }`}
         >
-          1st IEEE ICAC2N-24 || 16th & 17th December 2024
+          2nd IEEE ICAC2N-25 || 16th & 17th December 2025
         </button>
       </div>
       <div className="flex flex-col justify-center items-center text-center lg:text-start gap-10 lg:flex-row lg:justify-between">
         <div className="flex flex-col gap-4 h-full lg:w-[70%]">
           <div className="flex items-center space-x-2 lg:justify-start justify-center">
             <p className="text-red-800 font-semibold">
-              16th and 17th December 2024
+              16th and 17th December 2025
             </p>
           </div>
           <div className=" lg:hidden flex items-center space-x-2 lg:justify-start justify-center">
             <div className="text-red-800">
               <p className="font-semibold text">
-                Conference Record Number #63387
+                Conference Record Number #69160
               </p>
             </div>
           </div>
           <div className=" lg:hidden flex items-center space-x-2 lg:justify-start justify-center">
             <div className="text-red-800">
               <p className="font-semibold text">
-                IEEE XPLORE COMPLIANT ISBN No.{" "}
-                <span className="mx-2">979-8-3503-5681-6</span>
+                IEEE XPLORE COMPLIANT ISBN No. <span className="mx-2"></span>
               </p>
             </div>
           </div>
           <p className="text-3xl lg:text-4xl font-bold ">
-            1st International Conference on Advances in Computing, Communication
+            2nd International Conference on Advances in Computing, Communication
             and Networking- ICAC2N
           </p>
           <div className="hidden lg:flex items-center space-x-2 lg:justify-start justify-center">
             <div className="text-red-800">
               <p className="font-semibold text">
-                Conference Record Number #63387
+                Conference Record Number #69160
               </p>
             </div>
           </div>
@@ -67,7 +65,7 @@ const Intro = () => {
             <div className="text-red-800">
               <p className="font-semibold text">
                 IEEE XPLORE COMPLIANT ISBN No.
-                <span className="mx-2">979-8-3503-5681-6</span>
+                <span className="mx-2"></span>
               </p>
             </div>
           </div>
