@@ -1,18 +1,8 @@
 import { Link } from "react-router-dom";
 import DropDown from "./DropDownButton";
 import Marquee from "react-fast-marquee";
-import { useState, useEffect } from "react";
 
 const Navbar = () => {
-  const [scaled, setScaled] = useState(false);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setScaled((scaled) => !scaled);
-    }, 1000); // Change every 2 seconds
-
-    return () => clearInterval(intervalId); // Cleanup interval on component unmount
-  }, []);
   return (
     <div>
       {/*   ///////////////////////////////// AMrquee ///////////////////////////////*/}

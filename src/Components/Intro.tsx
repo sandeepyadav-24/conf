@@ -3,21 +3,10 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { useState, useEffect } from "react";
 
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
 const Intro = () => {
-  const [scaled, setScaled] = useState(false);
-
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setScaled((scaled) => !scaled);
-    }, 1000); // Change every 2 seconds
-
-    return () => clearInterval(intervalId); // Cleanup interval on component unmount
-  }, []);
-  console.log(scaled);
   return (
     <div>
       <div className="text-center my-10 font-bold">
