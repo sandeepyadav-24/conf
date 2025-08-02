@@ -179,7 +179,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image-1.jpg"
+                    src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138066/samples/image-2_f8mubz.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -199,7 +199,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image-2.jpg"
+                    src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138064/samples/image-6_r83rk0.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -219,7 +219,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image-3.jpg"
+                    src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138062/samples/image-5_ijbn6m.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -239,7 +239,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image-4.jpg"
+                    src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138060/samples/image-3_ddkaqb.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -259,7 +259,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image-5.jpg"
+                    src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138059/samples/image-4_c0nid2.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -279,7 +279,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image-6.jpg"
+                    src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138058/samples/image-9_onu3sk.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -299,52 +299,12 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image-7.jpg"
+                    src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138058/samples/image-8_p5dkcr.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
                     data-nimg="1"
                     className="object-cover rounded-md shadow-lg text-transparent "
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div
-                draggable="false"
-                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
-              >
-                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
-                  <img
-                    draggable="false"
-                    alt=""
-                    src="image-8.jpg"
-                    width="3000"
-                    height="2000"
-                    decoding="async"
-                    data-nimg="1"
-                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
-                    loading="lazy"
-                  />
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div
-                draggable="false"
-                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
-              >
-                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
-                  <img
-                    draggable="false"
-                    alt=""
-                    src="image-9.jpg"
-                    width="3000"
-                    height="2000"
-                    decoding="async"
-                    data-nimg="1"
-                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
                     loading="lazy"
                   />
                 </div>

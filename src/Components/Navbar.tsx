@@ -50,7 +50,7 @@ const Navbar = () => {
             <div className="flex items-center">
               <div className="h-12">
                 <img
-                  src="/Logo.jpeg"
+                  src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138063/samples/Logo_a8pld4.jpg"
                   alt=""
                   className="h-[50px] w-[50px] mr-3"
                 />

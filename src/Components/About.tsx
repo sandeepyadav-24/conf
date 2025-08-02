@@ -14,7 +14,10 @@ const About = () => {
             undergone tremendous growth and has scaled up its operations in a
             big way over many years, in line with its global ambitions.
           </p>
-          <img src="/ITS_Educational_group.jpg" alt="Image" />
+          <img
+            src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1754138061/samples/ITS_Educational_group_skvn8r.jpg"
+            alt="Image"
+          />
           <p className="mt-5"></p>
         </div>
         <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-gray-700" />
