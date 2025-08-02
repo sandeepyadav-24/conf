@@ -123,9 +123,7 @@ const Navbar = () => {
                   className={`text-md my-4 text-white transition underline transform duration-500 scale-100
                   }`}
                 >
-                  <a href="https://drive.google.com/file/d/1aaIgv00Dy3gi_qwSz8RLAzR0JlZy0-Ue/view?usp=sharing">
-                    SCHEDULE
-                  </a>
+                  SCHEDULE
                 </li>
               </div>
             </ul>

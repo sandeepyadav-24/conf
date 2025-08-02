@@ -10,7 +10,6 @@ const Intro = () => {
   return (
     <div>
       <div className="text-center my-10 font-bold">
-        <p>CONFERENCE WILL BE HELD IN BLENDED MODE (ONLINE AND OFFLINE BOTH)</p>
         <button
           className={`text-2xl my-4 text-red-800 transition transform duration-500 scale-100
           }`}
@@ -32,13 +31,13 @@ const Intro = () => {
               </p>
             </div>
           </div>
-          <div className=" lg:hidden flex items-center space-x-2 lg:justify-start justify-center">
+          {/**<div className=" lg:hidden flex items-center space-x-2 lg:justify-start justify-center">
             <div className="text-red-800">
               <p className="font-semibold text">
                 IEEE XPLORE COMPLIANT ISBN No. <span className="mx-2"></span>
               </p>
             </div>
-          </div>
+          </div> */}
           <p className="text-3xl lg:text-4xl font-bold ">
             2nd International Conference on Advances in Computing, Communication
             and Networking- ICAC2N
@@ -50,14 +49,14 @@ const Intro = () => {
               </p>
             </div>
           </div>
-          <div className="hidden lg:flex items-center space-x-2 lg:justify-start justify-center">
+          {/**<div className="hidden lg:flex items-center space-x-2 lg:justify-start justify-center">
             <div className="text-red-800">
               <p className="font-semibold text">
                 IEEE XPLORE COMPLIANT ISBN No.
                 <span className="mx-2"></span>
               </p>
             </div>
-          </div>
+          </div> */}
           <div className="flex items-center space-x-2 lg:justify-start justify-center">
             <div className="text-red-800">
               <p className="font-semibold text">
@@ -180,7 +179,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image1.png"
+                    src="image-1.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -200,7 +199,7 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image2.jpg"
+                    src="image-2.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
@@ -220,7 +219,127 @@ const Intro = () => {
                   <img
                     draggable="false"
                     alt=""
-                    src="image3.jpg"
+                    src="image-3.jpg"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className=" w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+                draggable="false"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing object-cover">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="image-4.jpg"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className="object-cover rounded-md shadow-lg text-transparent "
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                draggable="false"
+                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="image-5.jpg"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                draggable="false"
+                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="image-6.jpg"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                className=" w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+                draggable="false"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing object-cover">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="image-7.jpg"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className="object-cover rounded-md shadow-lg text-transparent "
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                draggable="false"
+                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="image-8.jpg"
+                    width="3000"
+                    height="2000"
+                    decoding="async"
+                    data-nimg="1"
+                    className=" h-full mx-auto object-cover rounded-md shadow-lg text-transparent"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div
+                draggable="false"
+                className="w-full h-full flex-none left-0 right-0 transform-none transition-transform ease-in-out"
+              >
+                <div className="flex h-full w-full cursor-grab active:cursor-grabbing">
+                  <img
+                    draggable="false"
+                    alt=""
+                    src="image-9.jpg"
                     width="3000"
                     height="2000"
                     decoding="async"
