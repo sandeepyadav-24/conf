@@ -14,7 +14,7 @@ const Intro = () => {
           className={`text-2xl my-4 text-red-800 transition transform duration-500 scale-100
           }`}
         >
-          2nd IEEE ICAC2N-25 || 16th & 17th December 2025
+          2nd ICAC2N-25 || 16th & 17th December 2025
         </button>
       </div>
       <div className="flex flex-col justify-center items-center text-center lg:text-start gap-10 lg:flex-row lg:justify-between">
