@@ -1,14 +1,8 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import DropDown from "./DropDownButton";
 import Marquee from "react-fast-marquee";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleOpen = () => setIsOpen(true);
-  const handleClose = () => setIsOpen(false);
-
   return (
     <div>
       {/*   ///////////////////////////////// Marquee ///////////////////////////////*/}
@@ -109,42 +103,15 @@ const Navbar = () => {
                   <Link to="/contact">CONTACT</Link>
                 </li>
               </div>
-              <div className=" flex md:w-auto w-full ml-5">
-                <li
-                  className="text-md my-4 text-white underline cursor-pointer"
-                  onClick={handleOpen}
-                >
-                  CMT ACKNOWLEDGEMENT
+              <div className="md:w-auto w-full">
+                <li className="cursor-pointer text-white">
+                  <Link to="/cmt">CMT ACKNOWLEDGEMENT</Link>
                 </li>
               </div>
             </ul>
           </div>
         </div>
       </nav>
-
-      {/* Popup Modal */}
-      {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
-            <h2 className="text-lg font-semibold mb-4">CMT Acknowledgement</h2>
-            <p className="mb-4 text-sm text-gray-700">
-              The Microsoft CMT services was used for managing the
-              peer-reviewing process for this conference. This service was
-              provided for free by Microsoft and they bore all expenses,
-              including costs for Azure cloud services as well as for software
-              development and support.
-            </p>
-            <div className="flex justify-end space-x-2">
-              <button
-                onClick={handleClose}
-                className="bg-gray-200 px-3 py-1 rounded hover:bg-gray-300"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

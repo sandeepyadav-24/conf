@@ -14,6 +14,7 @@ import TechnicalProgram from "./Components/TechnicalProgram ";
 import OrganizingComittee from "./Components/OrganizingComittee ";
 import Direct from "./Components/Direct";
 import Schedule from "./Components/Schedule";
+import CmtAcknowledgement from "./Components/Cmt";
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         <Route path="/speakers" element={<Speakers />}></Route>
         <Route path="/committee" element={<Committee />}></Route>
         <Route path="/call-for-papers" element={<CallForPapers />}></Route>
+        <Route path="/cmt" element={<CmtAcknowledgement />}></Route>
         <Route
           path="/committee/advisory-board"
           element={<AdvisoryBoard />}
