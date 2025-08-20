@@ -3,17 +3,6 @@ import Counter from "./Counter";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 const Body = () => {
-  const [isOpen, setIsOpen] = useState(false);
-  const handleClick = (e: any) => {
-    e.preventDefault(); // prevent navigation
-    setIsOpen(true); // open the popup
-    //All conference
-    //papers included in IEEE Xplore will be indexed in the SCOPUS
-    //database.
-  };
-  const handleClose = () => {
-    setIsOpen(false);
-  };
   return (
     <div className="flex flex-col space-y-5">
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-2 md:mx-auto">
@@ -373,7 +362,7 @@ const Body = () => {
             </div>{" "}
             <div className="space-y-3 p-4 rounded-b-md bg-gray-100 w-full lg:max-w-sm lg:max-h-52 lg:overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-thumb-rounded-md scrollbar-track-gray-200">
               {" "}
-              <div onClick={handleClick} className="cursor-pointer">
+              <div className="cursor-pointer">
                 {" "}
                 <div className="flex items-start justify-between">
                   {" "}
@@ -387,35 +376,6 @@ const Body = () => {
                 </div>{" "}
               </div>{" "}
             </div>{" "}
-            {/* Popup Modal */}{" "}
-            {isOpen && (
-              <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
-                {" "}
-                <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm w-full">
-                  {" "}
-                  <h2 className="text-lg font-semibold mb-4">
-                    CMT Acknowledgement
-                  </h2>{" "}
-                  <p className="mb-4">
-                    The Microsoft CMT services was used for managing the
-                    peer-reviewing process for this conference. This service was
-                    provided for free by Microsoft and they bore all expenses,
-                    including costs for Azure cloud services as well as for
-                    software development and support.
-                  </p>{" "}
-                  <div className="flex justify-end space-x-2">
-                    {" "}
-                    <button
-                      onClick={handleClose}
-                      className="bg-gray-200 px-3 py-1 rounded hover:bg-gray-300"
-                    >
-                      {" "}
-                      Close{" "}
-                    </button>{" "}
-                  </div>{" "}
-                </div>{" "}
-              </div>
-            )}
           </div>
         </div>
       </div>
