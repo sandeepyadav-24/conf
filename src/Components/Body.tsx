@@ -7,13 +7,6 @@ const Body = () => {
     <div className="flex flex-col space-y-5">
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-2 md:mx-auto">
         <div className="lg:col-span-2 lg:mr-10 col-span-full">
-          <h3 className="font-bold text-black ">
-            <span className="text-[#981B1B]">CMT Acknowledgement: </span>
-            The Microsoft CMT service was used for managing the peer-reviewing
-            process for this conference. This service was provided for free by
-            Microsoft and they bore all expenses, including costs for Azure
-            cloud services as well as for software development and support.
-          </h3>
           <h2 className="font-bold text-lg text-center lg:text-2xl lg:text-start my-3">
             About ICACCN
           </h2>

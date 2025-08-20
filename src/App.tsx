@@ -28,7 +28,10 @@ const App = () => {
         <Route path="/speakers" element={<Speakers />}></Route>
         <Route path="/committee" element={<Committee />}></Route>
         <Route path="/call-for-papers" element={<CallForPapers />}></Route>
-        <Route path="/cmt" element={<CmtAcknowledgement />}></Route>
+        <Route
+          path="/cmt-acknowledgement"
+          element={<CmtAcknowledgement />}
+        ></Route>
         <Route
           path="/committee/advisory-board"
           element={<AdvisoryBoard />}

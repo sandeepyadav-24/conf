@@ -105,7 +105,7 @@ const Navbar = () => {
               </div>
               <div className="md:w-auto w-full">
                 <li className="cursor-pointer text-white">
-                  <Link to="/cmt">CMT ACKNOWLEDGEMENT</Link>
+                  <Link to="/cmt-acknowledgement">CMT ACKNOWLEDGEMENT</Link>
                 </li>
               </div>
             </ul>
