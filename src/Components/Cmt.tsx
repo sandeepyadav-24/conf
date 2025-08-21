@@ -1,13 +1,6 @@
 const CmtAcknowledgement = () => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col items-center px-4 py-12">
-      {/* Heading Section */}
-      <div className="flex items-center mb-8 w-full max-w-2xl">
-        <div className="w-1.5 h-8 bg-red-600 rounded-sm mr-3"></div>
-        <h1 className="text-3xl font-extrabold text-gray-900">
-          CMT Acknowledgement
-        </h1>
-      </div>
 
       {/* Message Box */}
       <div className="bg-white p-8 rounded-lg shadow-lg max-w-2xl w-full">
