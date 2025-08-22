@@ -7,6 +7,19 @@ const Body = () => {
     <div className="flex flex-col space-y-5">
       <div className="grid grid-cols-1 lg:grid-cols-3 mx-2 md:mx-auto">
         <div className="lg:col-span-2 lg:mr-10 col-span-full">
+          {/* Important Message */}
+          <div className="mt-6 p-5 bg-red-50 border-l-4 border-red-600 rounded-xl shadow-md">
+            <h3 className="text-lg font-bold text-red-700 mb-2">
+              Important Message
+            </h3>
+            <p className="text-gray-700 leading-relaxed">
+              The Microsoft CMT service was used for managing the peer-reviewing
+              process for this conference. This service was provided for free by
+              Microsoft and they bore all expenses, including costs for Azure
+              cloud services as well as for software development and support.
+            </p>
+          </div>
+
           <h2 className="font-bold text-lg text-center lg:text-2xl lg:text-start my-3">
             About ICACCN
           </h2>
