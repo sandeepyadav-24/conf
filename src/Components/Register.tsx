@@ -7,7 +7,7 @@ const Register = () => {
             Registration
           </h1>
           <p className="mb-5">
-            Learn How to Register for ICAC2N-24: A Guide to Submitting Your
+            Learn How to Register for ICAC2N-25: A Guide to Submitting Your
             Papers for the International Conference on Advances in Computing,
             Communication and Networking.
           </p>
@@ -37,7 +37,7 @@ const Register = () => {
           </h2>
           <div>
             <img
-              src="https://icac3n.in/static/media/Registration%20Fee.cb89086a69c6cb382932.jpg"
+              src="https://res.cloudinary.com/dzgfsbzh6/image/upload/v1756189379/ICAC2N-25/WhatsApp_Image_2025-08-24_at_17.47.33_s2fwn3.jpg"
               alt=""
               className="max-w-full h-auto my-8"
             />
@@ -50,11 +50,12 @@ const Register = () => {
           <p className="mb-5">
             Authors are requested to follow the IEEE conference paper format.
           </p>
+
           <div className="flex flex-col space-y-4">
             <div>
               <a
                 className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-                href="https://drive.google.com/uc?export=download&id=12i-5rZdGbhnz05hlM8p-7F_yaUZLV09G"
+                href="https://drive.google.com/uc?export=download&id=1X5xQ3tQ4B86YQX4cLeM-RJXK7FFDblfX"
               >
                 Download Docx File
                 <svg
@@ -74,7 +75,7 @@ const Register = () => {
             <div>
               <a
                 className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-                href="https://drive.google.com/uc?export=download&id=12hhGJnCjI2JIQbeM6Ww6kTaWDVmptK1T   "
+                href="https://drive.google.com/uc?export=download&id=1BOIgr3Ayd8vTSWtBuPApB_eba0bpzrEn"
               >
                 Download PDF File
                 <svg
@@ -104,7 +105,7 @@ const Register = () => {
             <div>
               <a
                 className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-                href="https://drive.google.com/uc?export=download&id=1uyYBvpUvgxXwd3pRZCh0_J-Rlx--WAHj"
+                href="https://drive.google.com/uc?export=download&id=17nDlYmpmPCjn4BSAfzK5LiKKP8QVMKie"
               >
                 Download PPTX File
                 <svg

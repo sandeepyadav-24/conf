@@ -4,7 +4,7 @@ const Speakers = () => {
       <div className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
         <div className="my-8 min-h-[calc(100vh-28.8rem)]">
           <h1 className="text-3xl font-bold text-center mb-10">
-            Speakers for ICACCN 2024
+            Speakers for ICACCN 2025
           </h1>
           <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-x-5 gap-y-8 px-5">
             {/**

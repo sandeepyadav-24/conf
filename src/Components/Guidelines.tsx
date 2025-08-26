@@ -1,12 +1,14 @@
 import { Link } from "react-router-dom";
 function downloadFiles() {
   // Define the download links for the two files
-  const docxFile = "https://drive.google.com/uc?export=download&id=1YEBtFSi2ltpGdWDsIx6mbKeoituR120c";
-  const pdfFile = "https://drive.google.com/uc?export=download&id=1T_RSbf-zgpgmF9NN_XABuo9PqGVcZ1gX";
+  const docxFile =
+    "https://drive.google.com/uc?export=download&id=1YEBtFSi2ltpGdWDsIx6mbKeoituR120c";
+  const pdfFile =
+    "https://drive.google.com/uc?export=download&id=1T_RSbf-zgpgmF9NN_XABuo9PqGVcZ1gX";
 
   // Open two new tabs with the download links
-  window.open(docxFile, '_blank');
-  window.open(pdfFile, '_blank');
+  window.open(docxFile, "_blank");
+  window.open(pdfFile, "_blank");
 }
 const Guidelines = () => {
   return (
@@ -74,16 +76,25 @@ const Guidelines = () => {
             Networks
           </li>
           <p className="mt-5 mb-5">
-            Interested authors are invited to submit full papers including
-            results, figures and references. Papers will be accepted only by
-            electronic submission through easy-chair link given below
+            Interested authors are invited to submit full papers through
+            Microsoft CMT using the below given link. Papers will be accepted
+            only by electronic submission through CMT. The authors will need to
+            register their email with CMT before submitting there paper. Here is
+            a link how to create a CMT account
+            https://cmt3.research.microsoft.com/docs/help/general/account-creation.html.
+            The Microsoft CMT service was used for managing the peer-reviewing
+            process for this conference. This service was provided for free by
+            Microsoft and they bore all expenses, including costs for Azure
+            cloud services as well as for software development and support.
           </p>
           <div>
             <a
               href=""
               className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
             >
-              <Link to="https://cmt3.research.microsoft.com/ICAC2N2024">Submit a Paper</Link>
+              <Link to="https://cmt3.research.microsoft.com/ICACCN2025">
+                Submit a Paper
+              </Link>
             </a>
           </div>
           <p className="mt-5 mb-5">
@@ -95,7 +106,11 @@ const Guidelines = () => {
             of foreign authors. The IEEE paper template can be downloaded from
             the link given below.
           </p>
-          <div onClick={()=>{downloadFiles()}}>
+          <div
+            onClick={() => {
+              downloadFiles();
+            }}
+          >
             <a
               href=""
               className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
