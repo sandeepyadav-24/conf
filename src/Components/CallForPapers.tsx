@@ -8,6 +8,7 @@ const CallForPapers = () => {
           <h1 className="heading border-l-4 border-red-600 pl-4 pr-4 text-tw-prose-headings font-extrabold text-2xl mb-4 leading-tight">
             Call for Papers
           </h1>
+
           <p className="mb-5 mt-5">
             Authors are solicited to contribute to the conference by submitting
             articles that illustrate research results- projects, surveying works
@@ -69,12 +70,20 @@ const CallForPapers = () => {
               Researches and Innovations on COVID-19
             </li>
           </ul>
+
+          <p className="mb-5 mt-5">
+            Interested authors are invited to submit full papers through
+            Microsoft CMT using the below given link. Papers will be accepted
+            only by electronic submission through CMT. The authors will need to
+            register their email with CMT before submitting their paper, if not
+            already registered.
+          </p>
           <div>
             <a
               className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
-              href="https://cmt3.research.microsoft.com/ICAC2N2024"
+              href="https://cmt3.research.microsoft.com/ICACCN2025"
             >
-              <Link to="https://cmt3.research.microsoft.com/ICAC2N2024">
+              <Link to="https://cmt3.research.microsoft.com/ICACCN2025">
                 Submit a Paper
               </Link>
 

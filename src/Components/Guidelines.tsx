@@ -101,8 +101,8 @@ const Guidelines = () => {
             Authors need to submit the full final paper (Maximum 6 pages,
             double-column US letter size) as PDF using the IEEE templates. Extra
             pages beyond this would require additional page length charges. The
-            additional payment required for extra pages is Rs.2000/page for
-            Indian authors of all categories and USD 40/page for all categories
+            additional payment required for extra pages is Rs.1000/page for
+            Indian authors of all categories and USD 20/page for all categories
             of foreign authors. The IEEE paper template can be downloaded from
             the link given below.
           </p>
@@ -116,14 +116,14 @@ const Guidelines = () => {
               className="inline-flex items-center justify-center px-5 py-2 mr-3 text-base font-medium text-center text-white rounded-lg bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 no-underline dark:focus:ring-red-900"
             >
               {" "}
-              Download IEEE Conference Template
+              Download Conference Template
             </a>
           </div>
           <h2 className="border-l-4 border-red-600 pl-4 pr-4 text-tw-prose-headings font-bold text-lg mt-8 mb-4 leading-relaxed">
             Plagiarism Policy
           </h2>
           <p className="mb-5">
-            ICAC2N-24 takes plagiarism very seriously and regard plagiarism as a
+            ICAC2N-25 takes plagiarism very seriously and regard plagiarism as a
             professional misconduct. Papers will be screened for plagiarism and
             when identified the paper will be rejected.
           </p>

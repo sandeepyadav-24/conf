@@ -17,13 +17,13 @@ const Footer = () => {
               International Conference on Advances in Computing, Communication
               and Networking (ICAC2N–25)
             </p>
-            <div className="w-fit bg-gray-50 flex justify-center items-center pl-1 pr-2 rounded-md">
+            {/**<div className="w-fit bg-gray-50 flex justify-center items-center pl-1 pr-2 rounded-md">
               <img
                 src="https://media.licdn.com/dms/image/C4D0BAQH-OlyJBTqhuA/company-logo_200_200/0/1630473042878?e=2147483647&v=beta&t=il1n47KyKRuG5dCfX41lmyt8PZj5_YNPvvRYuNNG8Ro"
                 alt="IEEE UP Logo"
                 className="w-[130px] h-[60px] object-cover"
               />
-            </div>
+            </div> */}
           </div>
           {/**<div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
