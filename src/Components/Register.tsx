@@ -48,7 +48,7 @@ const Register = () => {
             Camera Ready Format
           </h2>
           <p className="mb-5">
-            Authors are requested to follow the IEEE conference paper format.
+            Authors are requested to follow the conference paper format.
           </p>
 
           <div className="flex flex-col space-y-4">

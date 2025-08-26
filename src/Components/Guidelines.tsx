@@ -99,12 +99,12 @@ const Guidelines = () => {
           </div>
           <p className="mt-5 mb-5">
             Authors need to submit the full final paper (Maximum 6 pages,
-            double-column US letter size) as PDF using the IEEE templates. Extra
+            double-column US letter size) as PDF using the templates. Extra
             pages beyond this would require additional page length charges. The
             additional payment required for extra pages is Rs.1000/page for
             Indian authors of all categories and USD 20/page for all categories
-            of foreign authors. The IEEE paper template can be downloaded from
-            the link given below.
+            of foreign authors. The paper template can be downloaded from the
+            link given below.
           </p>
           <div
             onClick={() => {
@@ -133,10 +133,10 @@ const Guidelines = () => {
           <ol className="list-decimal pl-6 mb-3">
             <li className="mt-2 mb-2 pl-1">
               ICAC2N conference organizers have zero tolerance against
-              plagiarism and paper formatting as per IEEE template. If author
-              found violating registration guidelines and instructions provided
-              from time to time at any stage during publication the registration
-              of paper will be cancelled.
+              plagiarism and paper formatting as per template. If author found
+              violating registration guidelines and instructions provided from
+              time to time at any stage during publication the registration of
+              paper will be cancelled.
             </li>
             <li className="mt-2 mb-2 pl-1">
               Transfer of e-copyright and presenting paper in conference is
