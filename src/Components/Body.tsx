@@ -161,7 +161,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Paper Submission Starts</p>
                     <p className="font-light text-sm "></p>
-                    <p className="text-sm text-gray-700 ">26/07/2025</p>
+                    <p className="text-sm text-gray-700 ">01/10/2025</p>
                   </div>
                   <div className="rounded-full bg-blue-800 font-semibold bg-opacity-20">
                     <p className="px-2 py-0.5 text-xs text-blue-800">New</p>
@@ -177,7 +177,7 @@ const Body = () => {
                       Paper Submission Deadline
                     </p>
                     <p className="font-light text-sm text-red-800"></p>
-                    <p className="text-sm  text-red-800">30/09/2025</p>
+                    <p className="text-sm  text-red-800">30/04/2026</p>
                   </div>
                   <div className="flex space-x-2 items-center justify-center">
                     <div className="rounded-full mt-1 bg-orange-800 font-semibold bg-opacity-20">
@@ -196,7 +196,7 @@ const Body = () => {
                     <p className="font-light text-sm ">
                       (within 4weeks from submission)
                     </p>
-                    <p className="text-sm text-gray-700 ">30/10/2025</p>
+                    <p className="text-sm text-gray-700 ">30/06/2026</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -206,7 +206,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Registration</p>
 
-                    <p className="text-sm text-gray-700 ">14/11/2025</p>
+                    <p className="text-sm text-gray-700 ">14/07/2026</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -216,7 +216,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Camera Ready Paper</p>
 
-                    <p className="text-sm text-gray-700 ">15/11/2025</p>
+                    <p className="text-sm text-gray-700 ">31/07/2026</p>
                   </div>
                 </div>
                 <hr className="h-px my-5 bg-gray-200 border-0 dark:bg-gray-700 " />
@@ -227,7 +227,7 @@ const Body = () => {
                     <p className="font-medium ">Conference Date</p>
 
                     <p className="text-sm text-gray-700 ">
-                      16th - 17th December 2025
+                      30th - 31st October 2026
                     </p>
                   </div>
                 </div>
