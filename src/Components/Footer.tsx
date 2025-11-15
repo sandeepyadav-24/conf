@@ -10,12 +10,12 @@ const Footer = () => {
                 <img src="/Logo.jpeg" alt="Logo" className="h-9" />
               </div>
               <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
-                ICAC2N-25
+                ICAC2N-26
               </span>
             </a>
             <p className="my-4 max-w-xs text-white">
               International Conference on Advances in Computing, Communication
-              and Networking (ICAC2N–25)
+              and Networking (ICAC2N–26)
             </p>
             {/**<div className="w-fit bg-gray-50 flex justify-center items-center pl-1 pr-2 rounded-md">
               <img
