@@ -194,7 +194,7 @@ const Body = () => {
                   <div>
                     <p className="font-medium ">Notification of Acceptance</p>
                     <p className="font-light text-sm ">
-                      (within 4weeks from submission)
+                      (within 6 - 8 weeks from submission)
                     </p>
                     <p className="text-sm text-gray-700 ">30/06/2026</p>
                   </div>
